@@ -10,6 +10,7 @@ public class Humano {
 	}
 	
 	private int id;
+	private int zapato;
 
 	public int getId() {
 		return id;
@@ -17,6 +18,14 @@ public class Humano {
 
 	public void setId(int id) {
 		this.id = id;
+	}
+	
+	public int getZapato() {
+		return zapato;
+	}
+	
+	public void setZapato(int zapato) {
+		this.zapato = zapato;
 	}
 	
 	private void initTodo() {
